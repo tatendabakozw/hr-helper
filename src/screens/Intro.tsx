@@ -25,25 +25,23 @@ const Intro = (props: Props) => {
           <SvgUri
             width="300"
             height="200"
-            source={require("../assets/intro_pic.svg")}
+            source={require("../assets/intro_pic1.svg")}
           />
         </View>
         <View style={tw`flex p-8 bg-white rounded-2xl`}>
           <Text style={tw`text-2xl font-semibold text-center`}>
-            Explore global map of weather and climate conditions
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </Text>
           <Text style={tw`text-slate-500 text-lg text-center pt-8 pb-16`}>
-            Weather firecast should not be a problm to anyone. Climate changes
-            should be viewed by everyone at any npoint in time, at any location.
-            This is what this app is for
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quisquam illum incidunt neque sed, sequi exercitationem, corporis animi possimus repellendus accusamus dolores quam tempora dolor laudantium molestiae praesentium natus ab.
           </Text>
           <TouchableOpacity
             activeOpacity={0.7}
             // @ts-ignore
-            onPress={() => navigation.navigate("SelectUser")}
-            style={tw`bg-[#048BA8] text-white rounded-full p-4`}
+            onPress={() => navigation.navigate("Login")}
+            style={tw`bg-[#86EFAC] text-black border border-black rounded-lg p-4`}
           >
-            <Text style={tw`w-full text-white text-center font-semibold`}>
+            <Text style={tw`w-full text-black text-center font-semibold`}>
               Get Started
             </Text>
           </TouchableOpacity>

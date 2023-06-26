@@ -24,14 +24,17 @@ const CustomHeader = ({ heading__title }: Props) => {
       <View
         style={[tw` mx-4 flex-row items-center absolute`, styles.belowHeader]}
       >
-        <Text style={tw`flex-1 text-2xl text-slate-500`}>{heading__title}</Text>
+        <View style={tw`h-12 w-12 rounded-full bg-slate-300`}>
+          {/* add avatar here */}
+        </View>
         <View style={tw`mx-1`} />
-        <TouchableOpacity
+        <Text style={tw`flex-1`}>{heading__title}</Text>
+        {/* <TouchableOpacity
           activeOpacity={0.7}
           style={tw`bg-white rounded-full p-4`}
         >
           <Ionicons name="search" size={24} color="#64748b" />
-        </TouchableOpacity>
+        </TouchableOpacity> */}
       </View>
     </SafeAreaView>
   );

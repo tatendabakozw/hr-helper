@@ -19,7 +19,7 @@ const GeneralLayout = (props: Props) => {
           </View>
       )}
       <ScrollView
-        style={[tw`flex-1 bg-slate-50`, { paddingHorizontal: 10 }]}
+        style={[tw`flex-1 bg-slate-100 h-full`, { paddingHorizontal: 10 }]}
       >
         {props.children}
       </ScrollView>
